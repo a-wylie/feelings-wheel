@@ -7,8 +7,35 @@
 </head>
   
 <body>
-<img id="rotate-this" src="https://raw.githubusercontent.com/a-wylie/feelings-wheel/main/calm_wheel_transparent.png" alt="Calm feelings wheel" />
-<script src="https://github.com/a-wylie/feelings-wheel/blob/ab264ae92f8d435eab478c437235babe68952058/script.js"></script>
+  <img id="rotate-this" src="https://raw.githubusercontent.com/a-wylie/feelings-wheel/main/calm_wheel_transparent.png" alt="Calm feelings wheel" />
+  <script>
+    import propeller from "https://cdn.skypack.dev/Propeller@0.3.2";
+
+startRotation();
+
+function startRotation() {
+		
+	var rotateElement = document.getElementById('rotate-this');
+	new Propeller(rotateElement , {
+		inertia: 0, speed: 10,
+	});
+
+}
+
+/* Function to check whether the device supports touch input or not */
+function is_touch_device() {
+	var prefixes = ' -webkit- -moz- -o- -ms- '.split(' ');
+	var mq = function (query) {
+		return window.matchMedia(query).matches;
+	}
+
+	if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+		return true;
+	}
+	var query = ['(', prefixes.join('touch-enabled),('), 'heartz', ')'].join('');
+	return mq(query);
+}
+  </script>
 </body>
 
 </html>
