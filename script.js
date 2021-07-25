@@ -1,4 +1,4 @@
-import propeller from "https://cdn.skypack.dev/Propeller@0.3.2";
+import propeller from "https://cdn.skypack.dev/pin/Propeller@v0.3.2-ugpopqWGEQVvoAImoOgc/mode=imports/optimized/Propeller.js";
 
 startRotation();
 
