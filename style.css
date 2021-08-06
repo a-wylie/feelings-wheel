@@ -1,10 +1,6 @@
-.wheelcontainer{
-  height: 800px;
-}
-
 #rotate-this{
-  width: 650px;
-  height: 650px;
+  width: 85%;
+  height: auto;
   margin-left: 0px;
   margin-right: 0px;
   border-collapse: collapse;
