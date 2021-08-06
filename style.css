@@ -1,5 +1,14 @@
+.wheel-container{
+  width: 650px;
+  height: 650px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+
 #rotate-this{
-  width: 650x;
+  width: 650px;
   height: 650px;
   margin-left: 0px;
   margin-right: 0px;
