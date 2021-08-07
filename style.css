@@ -1,11 +1,7 @@
-.wheel-container{
-  display: block;
-  width: 80%;
-  margin:auto;
-  }
-
 #rotate-this{
   width: 700px;
   height: auto;
   padding: 0px;
+  display: block;
+  text-align: center;
 }
