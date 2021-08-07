@@ -1,7 +1,9 @@
 #rotate-this{
   width: 700px;
   height: auto;
-  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right;
   border-collapse: collapse;
   padding: 0px;
 }
