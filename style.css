@@ -1,3 +1,9 @@
+.wheel-container{
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
 #rotate-this{
   width: 700px;
   height: auto;
