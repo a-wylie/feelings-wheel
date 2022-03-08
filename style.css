@@ -4,7 +4,8 @@
   padding: 0px;
   margin: 0px;
   display: block;
-  vertical-aligh: middle;
+  vertical-align: middle;
+  horizontal-align: middle;
 }
 
 .wheel-container{
